@@ -1,0 +1,14 @@
+1. C code to Executable File:
+    gcc app.c -o app.exe
+
+2. Preprocessor Stage File commad:
+    gcc  -E app.c -o app.i
+
+3. Assembly Stage File
+    gcc -S app.c -o app.s
+
+4. Compilation Stage File (this file is not executable)
+    gcc -C app.c -o app.o
+
+5. Passing value during compilation Stage
+    gcc app.c -D"Variable or Macro Name"="It's value" -o app.exe
