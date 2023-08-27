@@ -12,3 +12,9 @@
 
 5. Passing value during compilation Stage
     gcc app.c -D"Variable or Macro Name"="It's value" -o app.exe
+
+6. Explore file content in file system (standard C files):
+    less /usr/include/stdio.h
+
+7. To give a path of a include file to the Preprocessor -I directive is used. 
+    gcc -I ...

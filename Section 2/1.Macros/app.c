@@ -3,7 +3,7 @@
 #define MY_AGE              24              // simple macro
 #define MAX(a,b)            a>b ? a : b     // function-like macros
 #define SQRT(n)             n*n             // function-like macros - incorrect working when passed for example 2+3
-#define SQRT_CORRECTED(n)  (n)*(n)         // function like macro - working correctly
+#define SQRT_CORRECTED(n)  (n)*(n)          // function like macro - working correctly
 
 int main(void)
 {
@@ -24,5 +24,4 @@ int main(void)
     printf("Calling the __COUNTER__ macro: %d\n", __COUNTER__);   // 2
     printf("Calling the __COUNTER__ macro: %d\n", __COUNTER__);   // 3
     printf("Calling the __COUNTER__ macro: %d\n", __COUNTER__);   // 4 and etc.
-
 }
