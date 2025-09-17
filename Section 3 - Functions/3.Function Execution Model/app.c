@@ -18,5 +18,7 @@ int accumulate(int n)
 
     total = n + a + b + c + d + e;
 
+    printf("total = %d\n", total);
+
     return total; 
 }
