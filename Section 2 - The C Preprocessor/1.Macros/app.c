@@ -18,7 +18,7 @@ int main(void)
     printf("__LINE__ macro is called on line number: %d\n", __LINE__);
     printf("__FUNCTION__ macro is called in the function: %s\n", __FUNCTION__);
     printf("This file is compiled at: %s\n", __TIME__);
-    printf("This file is compiled at: %s\n", __DATE__);
+    printf("This file is compiled on: %s\n", __DATE__);
     printf("Calling the __COUNTER__ macro: %d\n", __COUNTER__);   // 0
     printf("Calling the __COUNTER__ macro: %d\n", __COUNTER__);   // 1
     printf("Calling the __COUNTER__ macro: %d\n", __COUNTER__);   // 2

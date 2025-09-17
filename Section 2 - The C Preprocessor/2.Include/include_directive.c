@@ -4,4 +4,5 @@
 int main(void)
 {
     int x = SIZE * COUNT;
+    printf(x);
 }

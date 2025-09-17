@@ -46,10 +46,10 @@ int accumulate_global_variable(int n)
 
 int accumulate_static_variable(int n)
 {
-    static int total_static = 0;                        // this is the locla variable but the lifetime of this variable is changed and
-                                                        // now this variable will exist until the program finishes. The static keyword 
-                                                        // change the lifetime of this variable but the scope is stil the same (it's a local
-                                                        // variable)
+    static int total_static = 0;                        // (lifetime as a global variable)this is the local variable but the lifetime of
+                                                        // this variable is changed and now this variable will exist until the program
+                                                        // finishes. The static keyword change the lifetime of this variable but the scope
+                                                        // is still the same (it's a local variable)
     total_static += n;
     printf("%s: total = %d\n", __FUNCTION__, total_static);
 }
